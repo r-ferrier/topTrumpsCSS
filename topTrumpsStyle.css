@@ -1,0 +1,16 @@
+body{
+    font-family: Helvetica;
+}
+
+h1{
+    color: green;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons{
+    alignment: center;
+    padding: 10px;
+    color: #ffa088;
+}

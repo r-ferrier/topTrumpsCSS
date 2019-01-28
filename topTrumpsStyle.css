@@ -10,7 +10,7 @@ h1{
 }
 
 .buttons{
-    alignment: center;
     padding: 10px;
     color: #ffa088;
+    align-items: center;
 }

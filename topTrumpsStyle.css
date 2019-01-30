@@ -4,17 +4,33 @@ body{
 
 h1{
     color: green;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: bold;
-    text-align: center;
+
+}
+
+.title{
+  align-content: center;
+}
+
+#firstWord{
+  float: left;
+  width: 50%;
+}
+
+#secondWord{
+  float: left;
+  width: 50%;
 }
 
 .buttonsContainer{
-    vertical-align: center;
+    text-align: center;
+    vertical-align: bottom;
 }
 
 .buttons{
     padding: 10px;
     color: #ffa088;
-    align-items: center;
+    display: inline-block;
+
 }

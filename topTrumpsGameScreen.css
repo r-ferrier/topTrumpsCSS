@@ -50,7 +50,11 @@ margin-bottom: 20px;
 }
 
 .winning-card{
-  display: inline-block;
+  margin-bottom: 50px;
+  max-width: 250px;
+  height: 400px;
+  margin: auto;
+  position: relative;
 }
 
 .all-cards-played{

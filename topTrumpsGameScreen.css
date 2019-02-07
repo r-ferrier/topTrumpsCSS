@@ -74,10 +74,10 @@ display: none;
 }
 
 #caption{
-  margin-top: -3px;
+  margin-top: 6px;
   font-family: 'baskerville';
   font-style: italic;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 .this-label{

@@ -58,7 +58,13 @@ margin-bottom: 20px;
 .all-cards-played{
 margin-top: 30px;
 margin-bottom: 50px;
+display: flex;
+flex-direction:row;
 display: none;
+}
+
+.row{
+  margin: 10px;
 }
 
 .radio-labels{

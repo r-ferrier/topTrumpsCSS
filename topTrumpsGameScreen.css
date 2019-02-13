@@ -5,28 +5,21 @@ body{
 }
 
 .top-line{
-  overflow: hidden;
-  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
   font-weight: bolder;
-  padding-top: 10px;
   font-size: 16pt;
 }
 
 #quit{
-  float: right;
+  display: flex;
+  flex-direction:row;
 }
 
-.play-card{
-text-align: center;
-margin-bottom: 20px;
-}
-
-.game-stats{
-  text-align: right;
-}
-
-#number-of-cards, #count-of-rounds{
-  display:inline-block;
+#players-turn{
+  display:flex;
+  flex-direction:row;
 }
 
 .card-outline{
@@ -37,15 +30,15 @@ margin-bottom: 20px;
   text-align: center;
   margin: auto;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
 }
 
 .ai-card-outline{
-  margin-bottom: 50px;
   max-width: 250px;
   margin: auto;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .winning-card{

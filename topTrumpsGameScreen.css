@@ -88,3 +88,11 @@ margin-bottom: 20px;
   margin-top: -6px;
   margin-left: 20px;
 }
+
+#number{
+  text-align:center;
+  background-color: white;
+  padding: 10px;
+  max-width: 25px;
+  border-radius:10px;
+}

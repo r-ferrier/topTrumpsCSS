@@ -30,33 +30,41 @@ right: 10;
  position:fixed;
 top:10;
 left: 10;
-color:#F7E3E3;
-color:#F9D4D4;
-color:#C46F85;
 color:white;
 font-size:18px;
 }
 
+.middle-line{
+  position:fixed;
+  top:30;
+  bottom:120;
+  left:0;
+  right:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
 
+.players-turn{
+  position:relative;
+}
 
 
 .card-outline{
   background-color: white;
   border-radius: 40px;
   max-width: 250px;
+  min-width: 250px;
   height: 400px;
   text-align: center;
-  margin: auto;
   position: relative;
-  margin-bottom: 20px;
-
+  margin:auto;
 }
 
 .ai-card-outline{
   max-width: 250px;
   margin: auto;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .winning-card{

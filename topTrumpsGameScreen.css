@@ -123,9 +123,11 @@ font-size:18px;
 #players-in-game{
 position:fixed;
 bottom:-10;
-left:0;
+left:10;
 right:0;
 text-align:left;
+font-weight:bold;
+font-size:16;
 }
 
 #cards-left{
@@ -146,10 +148,13 @@ right:10;
 
 #rounds-played, #cards-left-0, #cards-left-1, #cards-left-2, #cards-left-3, #cards-left-4{
  text-align:center;
+ font-weight:bold;
 }
 
 #number{
   background-color: white;
+  font-family:helvetica;
+  font-weight:bold;
   padding: 18px;
   max-width: 25px;
   min-width: 20px;

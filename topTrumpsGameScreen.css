@@ -5,13 +5,13 @@ body{
 }
 
 .top-line{
-  margin:30px;
   display:flex;
   flex-direction:row;
   justify-content: center;
 }
 
 #players-turn{
+  margin:30px;
   font-weight: bolder;
   font-size: 18pt;
 }
@@ -21,6 +21,13 @@ position:absolute;
 margin-left:45%;
 margin-right:2%;
 }
+
+#rounds-played{
+  position:absolute;
+  margin-left:-45%; 
+}
+
+
 
 
 .card-outline{
@@ -87,6 +94,38 @@ margin-right:2%;
  margin:15px; 
 }
 
+.game-stats{
+  position: fixed;
+  bottom: 0;
+}
+
+
+#players-in-game{
+position:fixed;
+left: 10;
+bottom:0;
+}
+
+#cards-left{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  position:fixed;
+  bottom:0;
+  right:10;
+  left:10;
+}
+
+#cards-left-communal{
+position:fixed;
+bottom:0;
+right:10;
+}
+
+#rounds-played, #cards-left-0, #cards-left-1, #cards-left-2, #cards-left-3, #cards-left-4{
+ text-align:center;
+}
+
 #number{
   background-color: white;
   padding: 18px;
@@ -97,33 +136,6 @@ margin-right:2%;
   margin-right:20px;
 }
 
-#not-number{
-  padding-top: 85px;
-}
-
-#players-in-game{
-position:absolute;
-margin-right:auto;
-margin-left:-30%;
-}
-
-#rounds-played, #cards-left-0, #cards-left-1, #cards-left-2, #cards-left-3, #cards-left-4{
- text-align:center;
-}
-
-#cards-left-communal{
-position:absolute;
-margin-left:43%;
-margin-right:1%;
-text-align:center;
-}
-
-#cards-left{
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-}
-
 #number-communal{
   background-color:#e6e8d5;
   padding: 20px;
@@ -132,17 +144,6 @@ text-align:center;
   text-align: center;
 }
 
-#rounds-played{
-  max-width: 150px;
-  border-radius:10px;
-  margin-right:20px;
-  display:inline-block;
-  float:right;
-}
-
-.game-stats{
-  display: flex;
-  flex-direction: row;
-  justify-content:center;
-
+#not-number{
+  padding-top: 85px;
 }

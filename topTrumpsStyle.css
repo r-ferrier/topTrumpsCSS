@@ -3,36 +3,36 @@ body{
     background-color: #dbddb3;
 }
 
-h1{
-    color: green;
-    font-size: 60px;
-    font-weight: bold;
-}
-
-.title{
-  text-align:right;
+#title{
   position:fixed;
-  left:100;
- }
-
+  left:0;
+  right:0;
+  max-width:400;
+  margin:auto;
+}
 
 .winner-message{
   position:fixed;
-  bottom:0;
+  bottom:180;
   left:0;
   right:0;
-  margin:200px;
   text-align:center;
 }
 
 .buttonsContainer{
   position:fixed;
-  text-align:center;
   right:0;
   left:0;
-  bottom:80;
+  bottom:50;
   max-width:260;
   margin:auto;
+}
+
+#winner-image{
+  position:relative;
+  bottom:-130;
+  width:700;
+  height:150;
 }
 
 .choose_players{

@@ -36,7 +36,7 @@ font-size:18px;
 
 .middle-line{
   position:fixed;
-  top:30;
+  top:60;
   bottom:120;
   left:0;
   right:0;
@@ -72,9 +72,10 @@ font-size:18px;
 
 .winning-card{
   margin-bottom: 50px;
-  max-width: 200px;
+  max-width: 250px;
   margin: auto;
   position: relative;
+  margin-bottom:45px;
 }
 
 .all-cards-played{
@@ -116,7 +117,6 @@ font-size:18px;
   bottom:130;
   left:0;
   right:0;
-  margin:15px;
 }
 
 #play-card{

@@ -24,14 +24,35 @@ h1{
   width: 50%;
 }
 
-.buttonsContainer{
-    text-align: center;
-    vertical-align: bottom;
+.winner-message{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+
+
+  margin:200px;
+  text-align:center;
 }
 
-.buttons{
-    padding: 10px;
-    color: #ffa088;
-    display: inline-block;
+.buttonsContainer{
+  position:fixed;
+  text-align:center;
+  right:0;
+  left:0;
+  bottom:80;
+  max-width:260;
+  margin:auto;
+}
 
+.choose_players{
+ font-family:baskerville;
+ font-size:24;
+ font-style:italic;
+ text-align:right;
+}
+
+.view-stats{
+  margin-top:-15px;
+text-align:right;
 }

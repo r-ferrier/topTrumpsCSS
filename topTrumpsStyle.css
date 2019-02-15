@@ -7,30 +7,20 @@ h1{
     color: green;
     font-size: 60px;
     font-weight: bold;
-
 }
 
 .title{
-  align-content: center;
-}
+  text-align:right;
+  position:fixed;
+  left:100;
+ }
 
-#firstWord{
-  float: left;
-  width: 50%;
-}
-
-#secondWord{
-  float: left;
-  width: 50%;
-}
 
 .winner-message{
   position:fixed;
   bottom:0;
   left:0;
   right:0;
-
-
   margin:200px;
   text-align:center;
 }

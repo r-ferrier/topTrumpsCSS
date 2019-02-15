@@ -46,7 +46,10 @@ font-size:18px;
 }
 
 .players-turn{
-  position:relative;
+  position:fixed;
+  top:50;
+  left:inherit;
+  right:inherit;
 }
 
 
@@ -108,8 +111,20 @@ font-size:18px;
   margin-left: 20px;
 }
 
+.play-card{
+  position:fixed;
+  bottom:130;
+  left:0;
+  right:0;
+  margin:15px;
+}
+
 #play-card{
- margin:15px; 
+ margin:auto; 
+}
+
+#end-game{
+  margin:auto;
 }
 
 .game-stats{

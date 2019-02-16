@@ -1,39 +1,29 @@
 body{
     font-family: Helvetica;
     background-color: #dbddb3;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
 }
 
 #title{
-  position:fixed;
-  left:0;
-  right:0;
-  max-width:400;
+  max-width:600;
   margin:auto;
 }
 
 .winner-message{
-  position:fixed;
-  bottom:180;
-  left:0;
-  right:0;
+  position:relative;
   text-align:center;
+  margin:auto;
 }
 
 .buttonsContainer{
-  position:fixed;
-  right:0;
-  left:0;
-  bottom:50;
-  max-width:260;
   margin:auto;
 }
 
-#winner-image{
+#winner{
   position:relative;
-  bottom:-130;
-  width:700;
-  height:150;
-  margin:auto;
+  bottom:130;
 }
 
 .choose_players{
@@ -44,6 +34,6 @@ body{
 }
 
 .view-stats{
-  margin-top:-15px;
+ margin-top:-15px;
 text-align:right;
 }
